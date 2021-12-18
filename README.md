@@ -1,20 +1,125 @@
-## 프론트엔드 실행하기
+<img width="300" alt="logo" src="https://user-images.githubusercontent.com/77048150/146647783-20832f11-b79a-4a99-b793-fb4cb75aad2e.png">
+
+# 1. 프로젝트 소개
+
+### 🎯 목표
+
+대한민국의 다양한 배달 데이터를 분석하고 배달 시장의 현황에 대해 보여주는 데이터 분석 서비스를 제공한다.
+
+- 코로나 전후 대한민국 배달 시장의 변화를 알 수 있다
+- 확진자 수 대비 배달 주문 건수의 변화를 지역별로 알 수 있다
+- 사용자가 자신이 먹은 음식 사진을 공유하고 다른 사람의 글을 보며 배달 트렌드를 알 수 있다
+- 해당 서비스의 게시판에 올라온 게시글 데이터를 분석, 지역별 업종/시간에 따른 게시글 분포를 알 수 있다
+
+### 🧐 기획 의도
+
+**대한민국 배달 정보 타파 서비스! 딜리버리 푸드 파이터에서 배달의 모든 것을 알아보아요**
+
+코로나 이후 꼼짝없이 집에 갇혀버린 우리들, 집에서 모든 것을 해결하는 것이 일상이 되었습니다. 집에서 삼시세끼 챙겨먹기는 왜 이렇게 어렵고 귀찮을까요? 어느새 배달 어플을 열고 메뉴를 고르고 있는 나를 발견하고 있진 않나요?
+
+딜리버리 푸드 파이터는 코로나 이후 배달이 일상이 되어버린 우리들을 위해 대한민국의 다양한 배달 데이터를 분석하고 최근 배달 시장이 어떻게 흘러가는지 보여주는 정보 분석 서비스입니다.
+
+재미없을 것 같다고요? 그렇지 않아요! 배달 주문은 언제 많아질까요? 사람들은 요즘 어떤 음식을 먹을까요? 딜푸파가 모두 알려줄게요! 수많은 쩝쩝박사들이 공유하는 다양한 꿀팁도 하나씩 읽다보면 어느새 시간이 훌쩍 지나 있을 거에요!
+
+<br>
+
+# 2. **기술 스택**
+<div align="center">
+<img alt="numpy" src ="https://img.shields.io/badge/numpy-013243.svg?&style=for-the-badge&logo=numpy&logoColor=white"/>
+<img alt="pandas" src ="https://img.shields.io/badge/pandas-150458.svg?&style=for-the-badge&logo=pandas&logoColor=white"/>
+<img alt="JSON" src ="https://img.shields.io/badge/JSON-000000.svg?&style=for-the-badge&logo=JSON&logoColor=white"/>
+<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
+<img alt="Flask" src ="https://img.shields.io/badge/Flask-000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
+<img alt="Doker" src ="https://img.shields.io/badge/Docker-000000.svg?&style=for-the-badge&logo=Docker&logoColor=white"/>
+<img alt="Javascript" src ="https://img.shields.io/badge/Javascript-F7DF1E.svg?&style=for-the-badge&logo=Javascript&logoColor=black"/>
+<img alt="React" src ="https://img.shields.io/badge/React-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=black"/>
+<img alt="MUI" src ="https://img.shields.io/badge/MUI-007FFF.svg?&style=for-the-badge&logo=MUI&logoColor=white"/>
+<img alt="styled-components" src ="https://img.shields.io/badge/styled--components-DB7093.svg?&style=for-the-badge&logo=styled-components&logoColor=black"/>
+</div>
+
+
+### 🗄프로젝트 구조도
+
+<img width="800" alt="와이어프레임" src="https://user-images.githubusercontent.com/77048150/146647792-40af55d9-97c0-455d-9eab-31efcfa29d69.png">
+
+<br>
+
+# 3. **기능 설명**
+
+### 🖼️ 와이어프레임
+
+<img width="800" alt="와이어프레임" src="https://user-images.githubusercontent.com/77048150/146647803-ec215a7c-f46c-476d-875b-d99ad27fef09.png">
+
+[브라우저로 보기](https://www.figma.com/file/yj5kYA5m8jRihN72iirNlJ/delivery-project?node-id=0%3A1)
+
+
+<br>
+
+### 📂 페이지 구조도 및 주요 기능
+
+<img width="800" alt="페이지 구조" src="https://user-images.githubusercontent.com/77048150/146647806-d1d34713-a87e-4d2f-ab46-b5393fa27638.png">
+
+
+<br>
+
+### 📄 api 문서
+[api 문서](https://lumbar-sloth-e92.notion.site/api-c6f79e4c2e4d41b888ebccd34a9450e2)
+
+<br>
+
+# 4. 시연 영상 및 웹 페이지 캡쳐
+
+
+**메인 페이지**
+
+<img width="800" alt="메인 페이지" src="https://user-images.githubusercontent.com/77048150/146647819-852e1727-b5ae-4efc-90b8-b2da7d2398e7.png">
+
+
+**딜푸파가 뭐야? (서비스 소개 페이지)**
+
+![서비스 소개](https://user-images.githubusercontent.com/77048150/146647823-2940b067-8a6f-42a7-91ad-9feda3d59e6c.gif)
+
+**배달, 얼마나 많아? (배달 데이터 분석 페이지)**
+
+![배달데이터](https://user-images.githubusercontent.com/77048150/146647829-15da8642-851b-44ca-bc34-8802286af4ad.gif)
+
+**쩝쩝박사 성향 분석 (로그 데이터 분석 페이지)**
+
+![로그데이터](https://user-images.githubusercontent.com/77048150/146647838-a80e5cd4-f7f7-45ec-b0d6-f6c07233cfe2.gif)
+
+**쩝쩝박사 다 모여! (게시판 페이지)**
+
+![게시판_](https://user-images.githubusercontent.com/77048150/146647882-27a3728c-93d9-4cff-8c0b-c4489c040104.gif)
+
+<br>
+
+# 5. 역할과 기여한 부분
+
+| 이름 | 담당 주 업무 |
+|-----|-----------|
+| 김한빈	| 팀장/데이터 분석 |
+| 김희재	| 데이터 분석 |
+| 권순빈	| 데이터 수집 |
+| 김나현	| 프론트엔드 |
+| 정태윤	| 백엔드 |
+
+
+**본인이 기여한 부분**
+- 프로젝트 컨셉 기획
+- UX/UI 디자인 및 개발
+- react-reflet을 활용한 지도 기능 구현
+- 전체 레이아웃 작업
+- 게시판 페이지 구현
+
+<br>
+
+# 6. 실행 
+
+**프론트엔드**
 1. yarn install / npm install로 라이브러리 설치
 2. yarn start / npm run start
 
-## 프론트엔드 파일 구성
-- src
-    - Compoments
-        - CustomMap.js : leaflet라이브러리를 이용한 기본 지도
-        - NavBar.js : 상단 메뉴 컴포넌트
-        - Greet.js : 테스트용 컴포넌트(삭제 예정)
-    - Pages : 페이지를 모아놓은 폴더입니다.
-        - SetPages.js : 각 페이지 컴포넌트를 모아놓은 파일
-        - Home.js : 서비스 소개가 들어가는 첫 페이지
-        - DeliveryNum.js : 코로나확진자수/배달건수 비교 페이지
-    - styles : 컴포넌트 스타일을 모아놓은 폴더입니다.
-
-## 백엔드 실행하기
+**백엔드**
 1. backend 폴더안에있는 requirements.txt로 파이썬 패키지 설치
 2. backend/delivery_app 폴더로 이동
 3. flask db init
@@ -30,84 +135,3 @@
     - 잘 실행이 됬다면 .git/hooks 폴더에 pre-commit이라는 파일이 생깁니다.
     - 이제 commit을 하면 python파일을 검사해 코드를 포맷팅해줍니다.
     - 포맷팅된 파일을 다시 add하고 commit을 하면 됩니다.
-
-### 요청 url
-- `GET localhost:5000/api/geodata/list`
-    - 모든 지역에 관한 기본 데이터 반환(id, 이름, 좌표)
-- `GET localhost:5000/api/geodata/graph/order-per-time/<id>`
-    - id에 해당하는 지역의 데이터, 시간-지역별 주문량 그래프와 설명을 반환
-- `GET localhost:5000/api/geodata/graph/stores/<id>`
-    - id에 해당하는 지역의 데이터, 배달상점분포 그래프와 설명을 반환
-- `<id>는 /api/geodata/list 요청을 통해 얻은 지역들의 id`
-
-### api 문서
-- [api문서](https://lumbar-sloth-e92.notion.site/api-c6f79e4c2e4d41b888ebccd34a9450e2)
-
-# (서비스 명)
-- 최종 서비스 명을 위 괄호 부분에 작성하세요.
-- 최종 서비스의 한 줄 소개를 작성하세요.
-
-
-## 프로젝트 구성 안내
-
-* `bullet point 에 적힌 내용을 수정해 주시면 됩니다.`
-
-* `초기 기획은 언제든 수정될 수 있으니 웹서비스 결과를 내는데 초점을 두시기 바랍니다.`
-
-## 1. 프로젝트 소개
-
-**어떠한 데이터셋와 도구 및 기술을 사용했는지에 대한 설명과 엔드유저에게 보이는 웹서비스에 대한 소개**
-
-  - 사용하려는 데이터(제안된 데이터 중 하나 또는 선택한 다른 데이터 세트)를 명시, 이에 대한 설명
-  - 기술 스택 (python, d3, pandas, jupyter, javascript, MySQL 등)
-  - 사용된 라이브러리 (numpy, matplotlib, wordcloud 등)
-  - 웹서비스에 대한 자세한 개요
-
-## 2. 프로젝트 목표
-
-**데이터 분석 결과로 도출되는 인사이트와 웹서비스의 해결과제에 대한 논의 (50자 이상)**
-  - 프로젝트 아이디어 동기
-  - 문제를 해결하기 위한 특정 질문 명시
-  - 데이터를 통해 탐색하려는 문제를 구체적으로 작성
-
-
-## 3. 프로젝트 기능 설명
-
-**웹서비스의 유용성, 편의성 및 시각화의 실용성에 대한 설명**
-  - 주요 기능 (주된 활용성) 및 서브 기능
-  - 프로젝트만의 차별점, 기대 효과
-
-## 4. 프로젝트 구성도
-  - 와이어프레임/스토리보드 추가
-
-## 5. 프로젝트 팀원 역할 분담
-| 이름 | 담당 업무 |
-| ------ | ------ |
-| 멤버1 | 팀장/프론트엔드 개발 |
-| 멤버2 | 백엔드 개발/데이터 분석 |
-
-**멤버별 responsibility**
-
-1. 팀장 
-
-- 기획 단계: 구체적인 설계와 지표에 따른 프로젝트 제안서 작성
-- 개발 단계: 팀원간의 일정 등 조율 + 프론트 or 백엔드 개발
-- 수정 단계: 기획, 스크럼 진행, 코치님 피드백 반영해서 수정, 발표 준비
-
-2. 프론트엔드 
-
-- 기획 단계: 큰 주제에서 문제 해결 아이디어 도출, 데이터 수집, 와이어프레임 작성
-- 개발 단계: 와이어프레임을 기반으로 구현, 데이터 처리 및 시각화 담당, UI 디자인 완성
-- 수정 단계: 피드백 반영해서 프론트 디자인 수정
-
- 3. 백엔드 & 데이터 담당  
-
-- 기획 단계: 기획 데이터 분석을 통해 해결하고자 하는 문제를 정의
-- 개발 단계: 웹 서버 사용자가 직접 백엔드에 저장할수 있는 기능 구현, 데이터 베이스 구축 및 API 활용, 데이터 분석 개념 총동원하기
-- 수정 단계: 코치님 피드백 반영해서 분석/ 시각화 방식 수정
-
-## 6. 버전
-  - 프로젝트의 버전 기입
-
-## 7. FAQ
-  - 자주받는 질문 정리
